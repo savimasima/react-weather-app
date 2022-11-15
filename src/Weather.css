@@ -27,8 +27,8 @@
   
 .Weather .temperature {
     font-weight: bold;
-    color: rgb(33, 33, 33);
-    font-size: 64px;
+    color: #1e1e1e;
+    font-size: 70px;
     line-height: 64px;
     font-weight: 400;
     align-items: center;
