@@ -5,8 +5,8 @@ import "./Weather.css";
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Weather(props) {
-    const [weatherData, setWeatherData] = useState({ ready: false });
-    const [city, setCity] = useState(props.defaultCity);
+    let [weatherData, setWeatherData] = useState({ ready: false });
+    let [city, setCity] = useState(props.defaultCity);
 
     function handleResponse(response) {
         setWeatherData({
@@ -56,6 +56,7 @@ export default function Weather(props) {
                                 type="submit" 
                                 value="Search"
                                 className="btn btn-primary w-100"
+                                onClick={handleCityChange}
                             />
                         </div>    
                     </div>    
