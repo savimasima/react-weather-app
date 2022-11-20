@@ -27,16 +27,16 @@
   
 .Weather .temperature {
     font-weight: bold;
-    color: #1e1e1e;
-    font-size: 70px;
+    color: rgb(33, 33, 33);
+    font-size: 64px;
     line-height: 64px;
+    margin-left: 5px;
     font-weight: 400;
-    align-items: center;
-    margin-left: 20px;
+    margin-left: 10px;
 }
   
 .Weather canvas {
-    margin: 0 auto;
+    margin: 10px auto;
 }
   
 .Weather .unit {
