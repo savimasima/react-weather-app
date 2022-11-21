@@ -47,3 +47,13 @@
     line-height: 1;
     top: -34px;
 }
+
+@media screen and (max-width: 575px) {
+    .Weather .humidity {
+        text-align: left;
+    }
+
+    .Weather .description {
+        text-align: right;
+    }
+}
